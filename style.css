@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+    background-color: plum;
+}
+
+/* nav */
+.meania{
+    font-family: 'Lobster', cursive;
+    color: white;
+    padding: 5%;
+    font-size: 2rem;
+}
+.navbar-main{
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.btn-color{
+    border: 2px solid orangered;
+    color: white;
+}
+#search-field{
+    padding: 15px 20px;
+}
+.text-input{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.brand-header{
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.phone-image{
+    margin-top: 20px;
+    position: relative;
+    left: 40%;
+}
+.cheapset{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+}
+.display-size{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    color: white;
+}
+.relise-date{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    font-weight: 700;
+    color: white;
+}
+.btn-secondary{
+    background-color: crimson;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+}
+.modal-box{
+    box-shadow: 10px 20px 20px;
+    color: white;
+}
+.card{
+    padding: 40px;
+    border: none;
+    font-family: 'Lobster', cursive;
+    box-shadow: 10px 20px 20px;
+    border-radius: 20px;
+    /* color: white; */
+}
+.modal-content{
+    background-color: black;
+    /* opacity: 0.5; */
+    border: none;
+    border-radius: 20px;
+}
+.error-massage{
+    color: crimson;
+    background-color: black;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+.btn-similer{
+    background-color: black;
+    color: white;
+}
