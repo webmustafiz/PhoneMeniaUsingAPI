@@ -22,12 +22,6 @@ const displayPhones = (phones,datalimit) => { // use same and again (dataLimit)
     }
     // phones = phones.slice(0, 10)   //6 no work
     
-
-
-
-
-
-
                 //  7 no work Error Massage
     const noPhoneFound = document.getElementById('no-found-massage');
     if (phones.length === 0) {
@@ -57,7 +51,6 @@ const displayPhones = (phones,datalimit) => { // use same and again (dataLimit)
     // 8 no work under the toggole spiner stop loading
     toggoleSpiner(false)
 }
-
 
 // 3rd work button and input field 
 document.getElementById('btn-search').addEventListener('click', function () {
@@ -105,7 +98,6 @@ const displayePhoneDetails = phone => {
         
     `;
 }
-
 
 // 11 no work do the connect the Enter button click and see search result
 document.getElementById('search-field').addEventListener('keypress', function (event) {
