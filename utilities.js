@@ -6,11 +6,14 @@ const processSearch = (datalimit) => {  // 9 no work use data limit becouse how 
         loadPhones(searchText, datalimit);
     }
     else {
-        swal.fire({
-        title: 'Warning!',
-        text: 'Please Search Mobile Phone',
-        icon: 'warning',
-        confirmButtonText: 'Cancel'
+        // swal.fire({
+        // title: 'Warning!',
+        // text: 'Please Search Mobile Phone',
+        // icon: 'warning',
+        // confirmButtonText: 'Cancel'
+        // })
+                Swal.fire({
+        template: '#my-template'
         })
     }
 }
